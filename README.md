@@ -1,4 +1,4 @@
-#React Apps for Translation Tasks using OpenAI API
+# React Apps for Translation Tasks using OpenAI API
 
 Just some basic React code to test translation capabilities for specific localization files using the OpenAI API.
 .TS file translation is working fine so far.
