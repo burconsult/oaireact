@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import TSTrans from './TSTrans';
+import Translator from './Translator';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('peopleList');
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <button className="btn btn-primary" onClick={() => setCurrentPage('Translator')}>General Translator</button>
+      <button className="btn btn-primary" onClick={() => setCurrentPage('TSTrans')}>.ts file translator</button>
+      {currentPage === 'Translator' ? <Translator /> : <TSTrans />}
     </div>
   );
 }

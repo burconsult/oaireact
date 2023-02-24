@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "OAIReact",
+  "name": "React apps to test OpenAI API functionality.",
   "icons": [
     {
       "src": "favicon.ico",
