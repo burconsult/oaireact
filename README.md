@@ -1,4 +1,9 @@
-# Getting Started with Create React App
+#React Apps for Translation Tasks using OpenAI API
+
+Just some basic React code to test translation capabilities for specific localization files using the OpenAI API.
+.TS file translation is working fine so far.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
